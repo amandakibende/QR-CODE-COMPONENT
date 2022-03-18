@@ -3,37 +3,43 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
 
 body{
     background-color: #D5E1EF ;
     font-family: 'Outfit';
-    font-size: 15px;
-    font-weight: 700;
 }
 
 
-.flex{
+.flex-container{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 500px;
+            flex-direction: column;
+            margin: 3rem auto 2rem;
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 20px;
+            width: 400px;
+            padding: 25px 25px 2rem;
+            text-align: center;
 }
 
-.center-container{
-    background-color: #fff;
-    width:250px;
-    height: 400px;
+img{
+    width: 100%;
     border-radius: 20px;
-
 }
 
-img {
-    height: 100px;
-    width: 100px;
+h2{
+    font-weight: 700;
+    padding: 20px;
 }
+
+p{
+    font-weight: 400;
+}
+
   .attribution { 
       font-size: 11px;
       text-align: center;
